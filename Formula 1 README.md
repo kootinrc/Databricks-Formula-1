@@ -5,7 +5,8 @@ A batch-incremental lakehouse for historical Formula 1 race data, implemented on
 
 ## Architecture
 
-![Medallion architecture and incremental processing](incremental-data-processing-medallion.png)
+<img width="1886" height="1023" alt="incremental-data-processing-medallion" src="https://github.com/user-attachments/assets/2981d4a1-5408-40d4-ac96-a53d336ae5e8" />
+
 
 The pipeline consists of four stages: landing, bronze, silver, and gold. Orchestration is handled by Lakeflow Jobs.
 
