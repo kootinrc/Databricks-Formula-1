@@ -1,4 +1,3 @@
-
 # Formula 1 Lakehouse
 
 A batch-incremental lakehouse for historical Formula 1 race data, implemented on Databricks using the medallion architecture pattern. Source files arrive in a landing zone as dated batches and are processed through bronze, silver, and gold layers. The gold layer exposes a star schema over session results for analytical reporting.
